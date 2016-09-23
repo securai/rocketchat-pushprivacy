@@ -1,6 +1,6 @@
 {
   "name": "rocketchat-pushprivacy",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Bring down the information in push notifications from rocketchat",
   "main": "index.js",
   "scripts": {
@@ -9,9 +9,9 @@
   "bin": {
     "rocketchat-pushprivacy": "./index.js"
   },
-  "repository" : {
-    "type" : "git",
-    "url" : "https://github.com/securai/rocketchat-pushprivacy.git"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/securai/rocketchat-pushprivacy.git"
   },
   "author": "Jan Hoersch <jan.hoersch@securai.de>",
   "license": "MIT",
