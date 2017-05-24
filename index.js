@@ -41,7 +41,7 @@ http.createServer((req, res) => {
         method: 'POST',
         path: '/push/apn/send',
         headers: {
-          'Content-Type': 'application/x-www-form-urlencoded',
+          'Content-Type': 'application/json',
           'Content-Length': Buffer.byteLength(data)
         }
       }, (res) => {
